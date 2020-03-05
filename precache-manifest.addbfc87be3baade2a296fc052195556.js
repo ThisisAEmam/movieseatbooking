@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "81fdfe759d4efcef51c1780a50a08cb4",
+    "revision": "f3c0607c2db56346d31006abfcdce59a",
     "url": "/movieseatbooking/index.html"
   },
   {
-    "revision": "5b468cb0e6e8ec2a2ad3",
+    "revision": "9dd8ebf10342c291eab9",
     "url": "/movieseatbooking/static/css/main.554a2d7a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/movieseatbooking/static/js/2.c6ad0ee9.chunk.js.LICENSE"
   },
   {
-    "revision": "5b468cb0e6e8ec2a2ad3",
-    "url": "/movieseatbooking/static/js/main.6f887dd2.chunk.js"
+    "revision": "9dd8ebf10342c291eab9",
+    "url": "/movieseatbooking/static/js/main.5dfb9327.chunk.js"
   },
   {
     "revision": "ad9388fbb3b4d2e1e589",
