@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/MovieSeatBookingApp/static/css/main.554a2d7a.chunk.css",
-    "main.js": "/MovieSeatBookingApp/static/js/main.6f887dd2.chunk.js",
-    "main.js.map": "/MovieSeatBookingApp/static/js/main.6f887dd2.chunk.js.map",
-    "runtime-main.js": "/MovieSeatBookingApp/static/js/runtime-main.fbc277d4.js",
-    "runtime-main.js.map": "/MovieSeatBookingApp/static/js/runtime-main.fbc277d4.js.map",
-    "static/js/2.c6ad0ee9.chunk.js": "/MovieSeatBookingApp/static/js/2.c6ad0ee9.chunk.js",
-    "static/js/2.c6ad0ee9.chunk.js.map": "/MovieSeatBookingApp/static/js/2.c6ad0ee9.chunk.js.map",
-    "index.html": "/MovieSeatBookingApp/index.html",
-    "precache-manifest.88a39b53665e729fcd775f0d40657d15.js": "/MovieSeatBookingApp/precache-manifest.88a39b53665e729fcd775f0d40657d15.js",
-    "service-worker.js": "/MovieSeatBookingApp/service-worker.js",
-    "static/css/main.554a2d7a.chunk.css.map": "/MovieSeatBookingApp/static/css/main.554a2d7a.chunk.css.map",
-    "static/js/2.c6ad0ee9.chunk.js.LICENSE": "/MovieSeatBookingApp/static/js/2.c6ad0ee9.chunk.js.LICENSE"
+    "main.css": "/movieseatbooking/static/css/main.554a2d7a.chunk.css",
+    "main.js": "/movieseatbooking/static/js/main.6f887dd2.chunk.js",
+    "main.js.map": "/movieseatbooking/static/js/main.6f887dd2.chunk.js.map",
+    "runtime-main.js": "/movieseatbooking/static/js/runtime-main.d881bd32.js",
+    "runtime-main.js.map": "/movieseatbooking/static/js/runtime-main.d881bd32.js.map",
+    "static/js/2.c6ad0ee9.chunk.js": "/movieseatbooking/static/js/2.c6ad0ee9.chunk.js",
+    "static/js/2.c6ad0ee9.chunk.js.map": "/movieseatbooking/static/js/2.c6ad0ee9.chunk.js.map",
+    "index.html": "/movieseatbooking/index.html",
+    "precache-manifest.bb4ef81ea9492196178502018d0209d6.js": "/movieseatbooking/precache-manifest.bb4ef81ea9492196178502018d0209d6.js",
+    "service-worker.js": "/movieseatbooking/service-worker.js",
+    "static/css/main.554a2d7a.chunk.css.map": "/movieseatbooking/static/css/main.554a2d7a.chunk.css.map",
+    "static/js/2.c6ad0ee9.chunk.js.LICENSE": "/movieseatbooking/static/js/2.c6ad0ee9.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.fbc277d4.js",
+    "static/js/runtime-main.d881bd32.js",
     "static/js/2.c6ad0ee9.chunk.js",
     "static/css/main.554a2d7a.chunk.css",
     "static/js/main.6f887dd2.chunk.js"
