@@ -1,0 +1,29 @@
+.Seat {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #8d8d8dad;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    transition: all 0.1s ease;;
+}
+
+.occupied {
+    background-color: #fff;
+    cursor: default;
+}
+
+.selected {
+    background-color: var(--prim-color);
+}
+
+.Seat:hover {
+    opacity: 0.95;
+    transform: scale(1.1);
+}
+
+.Seat.occupied:hover {
+    opacity: 1;
+    transform: scale(1);
+}

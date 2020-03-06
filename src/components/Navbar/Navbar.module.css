@@ -1,0 +1,83 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4rem;
+    background-color: #242333;
+    color: #fff;
+    z-index: 199;
+}
+
+.navContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.navbarBrand {
+    z-index: 200;
+}
+
+.navbarBrand img {
+    width: 100px;
+    height: 100px;
+}
+
+.navbarBrand:hover {
+    animation: logo 1s;
+}
+
+@keyframes logo {
+    0% {
+        transform: scale(1) rotate(0) ;
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+.welcomeMsg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    left: 16%;
+    width: 68%;
+}
+
+.welcomeMsg p {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.welcomeMsg p span {
+    color: var(--prim-color);
+    font-size: 1.3rem;
+}
+
+.welcomeMsg p i {
+    margin-right: 0.5rem;
+}
+
+.welcomeMsg a {
+    color: var(--prim-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.2rem 0;
+    border-bottom: 2px solid transparent;
+    transition: all 0.25s ease;
+}
+
+.welcomeMsg a:hover {
+    color: var(--prim-color-hover);
+    border-bottom-color: var(--prim-color-hover);
+}

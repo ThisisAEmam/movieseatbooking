@@ -1,0 +1,17 @@
+.backdrop {
+    background-color: #0000008c;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    pointer-events: none;
+    transition: all 0.1s ease;
+    z-index: 10;
+}
+
+.backdrop.visible {
+    opacity: 1;
+    pointer-events: all;
+}

@@ -1,0 +1,6 @@
+.Seats {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-row-gap: 0.75rem;
+    width: 100%;
+}

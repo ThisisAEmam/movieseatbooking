@@ -1,0 +1,33 @@
+.Btn {
+    cursor: pointer;
+    width: 100%;
+    padding: 0.65rem 1rem 0.75rem 1rem;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: cursive;
+    transition: all 0.2s ease-in-out;
+}
+
+.Btn:hover {
+    transform: translateY(-1px);
+}
+
+.Cancel {
+    background-color: var(--secondary-color);
+}
+
+.Cancel:hover {
+    background-color: var(--secondary-color-hover);
+}
+
+.Primary {
+    background-color: var(--prim-color);
+}
+
+.Primary:hover {    
+    background-color: var(--prim-color-hover);
+}

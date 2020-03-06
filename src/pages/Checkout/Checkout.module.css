@@ -1,0 +1,79 @@
+.Checkout {
+    background-color: var(--bg-pages-color);
+    width: 100%;
+    height: fit-content;
+    padding: 2rem;
+    padding-top: 1.5rem;
+    margin-top: 4.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.img {
+    width: 12rem;
+}
+
+.img img {
+    border-radius: 10px;
+}
+
+.body {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 100%;
+}
+
+.header {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.055);
+    color: #fff;
+}
+
+.seatsNum {
+    margin: 2rem 0;
+    font-size: 1.5rem;
+}
+
+.seatsNum span {
+    color: var(--prim-color);
+    font-weight: bold;
+}
+
+.priceConfirm {
+    display: flex;
+    width: 100%;
+    padding-top: 1rem;
+    border-top: 2px solid var(--prim-color);
+}
+
+.totalPrice {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--prim-color);
+}
+
+.totalPrice span {
+    font-size: 1.5rem;
+    color: var(--prim-color-hover)
+}
+
+.priceConfirm button {
+    margin-left: auto;
+    padding: 0.5rem 3rem 0.65rem 3rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--prim-color);
+    font-family: cursive;
+    border-radius: 10px;
+    border: 0;
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+
+.priceConfirm button:hover {
+    background-color: var(--prim-color-hover);
+    transform: translateY(-1px);
+}

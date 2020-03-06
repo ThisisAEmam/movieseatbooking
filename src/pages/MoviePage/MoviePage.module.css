@@ -1,0 +1,54 @@
+.MoviePage {
+    background-color: var(--bg-pages-color);
+    width: 100%;
+    margin-top: 4.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+}
+
+.movieDisc {
+    display: flex;
+}
+
+.movieImg {
+    width: 12rem;
+}
+
+.movieImg img {
+    border-radius: 10px;
+}
+
+.MoviePage .body {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 100%;
+}
+
+.header {
+    color: var(--prim-color);
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #5ab5dfa2;
+    font-size: 2.2rem;
+}
+
+.discription {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.4rem;
+}
+
+.price {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--prim-color);
+}
+
+.booking {
+    margin-top: 5rem;
+}

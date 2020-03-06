@@ -1,0 +1,121 @@
+.modal {
+    width: 30%;
+    min-width: 300px;
+    padding: 2rem 3rem;
+    background-color: #f5f5f5;
+    color: #222;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    position: absolute;
+    animation: fadeDown ease 0.5s;
+    
+}
+
+.heading {
+    color: var(--prim-color);
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 2rem;
+    border-bottom: 1px solid #cccccccc;
+    padding-bottom: 1rem;
+}
+
+.form {
+    margin-top: 1.5rem;
+}
+
+.formControl {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 1rem;
+}
+
+.formControl:last-of-type {
+    margin-bottom: 0;
+}
+
+.formControl label {
+    text-transform: uppercase;
+    color: var(--prim-color);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.formControl label.empty {
+    color: var(--error-color);
+}
+
+.formControl input {
+    font-family: cursive;
+    padding: 0.65rem 0.75rem;
+    border-radius: 5px;
+    border: 2px solid var(--prim-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #555;
+}
+
+.formControl input::placeholder {
+    color: #cecece;
+}
+
+.formControl input.emptyInput {
+    border: 2px solid var(--error-color);
+    background-color: #fff4f4;
+}
+
+.blankMsg {
+    text-align: left;
+    margin-top: 0.25rem;
+    color: var(--error-color);
+    display: none;
+}
+
+.blankMsg.show {
+    display: block;
+}
+
+.btns {
+    display: flex;
+    margin: 3rem 0 1rem 0;
+    justify-content: flex-end;
+}
+
+.btns Button {
+    width: 7rem;
+    margin-right: 2rem;
+    margin-top: 0;
+}
+
+.btns Button:last-of-type {
+    margin-right: 0;
+}
+
+.errMsg {
+    margin-top: 0.5rem;
+    width: 100%;
+    padding: 0.25rem 0 0.35rem 0;
+    text-align: center;
+    background-color: var(--error-color);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+@keyframes fadeDown {
+    0% {
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-30%);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        pointer-events: all;
+        transform: translateY(0);
+    }
+}

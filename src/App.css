@@ -1,0 +1,49 @@
+:root {
+    --prim-color: #5ab5df;
+    --prim-color-hover: #489fc7;
+    --secondary-color: #333333;
+    --secondary-color-hover: #292929;
+    --bg-color: #242333;
+    --bg-color-hover: #212030;
+    --bg-pages-color: #2d2c41;
+    --error-color: #e43f3f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(100deg,#252435 50%, #242333 0);
+    color: #f4f4f4;
+    font-family: cursive;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    min-width: 350px;
+    min-height: 92vh;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0.7rem;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--prim-color);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--prim-color-hover);
+  }
