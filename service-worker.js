@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/movieseatbooking/precache-manifest.addbfc87be3baade2a296fc052195556.js"
+  "/movieseatbooking/precache-manifest.8064223c65ca913379ac64d0b6ca6776.js"
 );
 
 self.addEventListener('message', (event) => {

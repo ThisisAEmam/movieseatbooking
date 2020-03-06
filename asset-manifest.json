@@ -1,22 +1,33 @@
 {
   "files": {
-    "main.css": "/movieseatbooking/static/css/main.554a2d7a.chunk.css",
-    "main.js": "/movieseatbooking/static/js/main.5dfb9327.chunk.js",
-    "main.js.map": "/movieseatbooking/static/js/main.5dfb9327.chunk.js.map",
+    "main.css": "/movieseatbooking/static/css/main.bd0e7100.chunk.css",
+    "main.js": "/movieseatbooking/static/js/main.f517353c.chunk.js",
+    "main.js.map": "/movieseatbooking/static/js/main.f517353c.chunk.js.map",
     "runtime-main.js": "/movieseatbooking/static/js/runtime-main.d881bd32.js",
     "runtime-main.js.map": "/movieseatbooking/static/js/runtime-main.d881bd32.js.map",
-    "static/js/2.c6ad0ee9.chunk.js": "/movieseatbooking/static/js/2.c6ad0ee9.chunk.js",
-    "static/js/2.c6ad0ee9.chunk.js.map": "/movieseatbooking/static/js/2.c6ad0ee9.chunk.js.map",
+    "static/js/2.1dcf400a.chunk.js": "/movieseatbooking/static/js/2.1dcf400a.chunk.js",
+    "static/js/2.1dcf400a.chunk.js.map": "/movieseatbooking/static/js/2.1dcf400a.chunk.js.map",
     "index.html": "/movieseatbooking/index.html",
-    "precache-manifest.addbfc87be3baade2a296fc052195556.js": "/movieseatbooking/precache-manifest.addbfc87be3baade2a296fc052195556.js",
+    "precache-manifest.8064223c65ca913379ac64d0b6ca6776.js": "/movieseatbooking/precache-manifest.8064223c65ca913379ac64d0b6ca6776.js",
     "service-worker.js": "/movieseatbooking/service-worker.js",
-    "static/css/main.554a2d7a.chunk.css.map": "/movieseatbooking/static/css/main.554a2d7a.chunk.css.map",
-    "static/js/2.c6ad0ee9.chunk.js.LICENSE": "/movieseatbooking/static/js/2.c6ad0ee9.chunk.js.LICENSE"
+    "static/css/main.bd0e7100.chunk.css.map": "/movieseatbooking/static/css/main.bd0e7100.chunk.css.map",
+    "static/js/2.1dcf400a.chunk.js.LICENSE": "/movieseatbooking/static/js/2.1dcf400a.chunk.js.LICENSE",
+    "static/media/Logo.png": "/movieseatbooking/static/media/Logo.e1f76dd4.png",
+    "static/media/darkKnight.jpg": "/movieseatbooking/static/media/darkKnight.b9c8ca2e.jpg",
+    "static/media/godFather.jpg": "/movieseatbooking/static/media/godFather.ca9c64a5.jpg",
+    "static/media/joker.jpg": "/movieseatbooking/static/media/joker.4e1ca0d2.jpg",
+    "static/media/lionKing.jpg": "/movieseatbooking/static/media/lionKing.68af1842.jpg",
+    "static/media/lordOfTheRings.jpg": "/movieseatbooking/static/media/lordOfTheRings.b60aa92e.jpg",
+    "static/media/notFound.png": "/movieseatbooking/static/media/notFound.4c2cdc4d.png",
+    "static/media/shawshank.jpg": "/movieseatbooking/static/media/shawshank.0b792a1a.jpg",
+    "static/media/starWars.jpg": "/movieseatbooking/static/media/starWars.a2c35891.jpg",
+    "static/media/titanic.jpg": "/movieseatbooking/static/media/titanic.969d6feb.jpg",
+    "static/media/toyStory.jpg": "/movieseatbooking/static/media/toyStory.4b0dfdfa.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d881bd32.js",
-    "static/js/2.c6ad0ee9.chunk.js",
-    "static/css/main.554a2d7a.chunk.css",
-    "static/js/main.5dfb9327.chunk.js"
+    "static/js/2.1dcf400a.chunk.js",
+    "static/css/main.bd0e7100.chunk.css",
+    "static/js/main.f517353c.chunk.js"
   ]
 }
